@@ -1,0 +1,35 @@
+h2 {
+  color: gray;
+  text-align: center;
+}
+h4{
+  color: gray;
+}
+
+.producto-container {
+  width: 98%;
+  height: 95%;
+  margin: 25px, 10px;
+  background-color: darkgray;
+  border-radius: 2%;
+}
+.card-container{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    
+  }
+.card{
+    margin: 20px 20px 20px 20px;
+}
+.detalle-container {
+  width: 50%;
+  height: 98%;
+  margin: 5px 5px 5px 5px;
+  background-color: darkgray;
+  border-radius: 1%;
+  display:grid;
+  border-spacing: 10%;
+}

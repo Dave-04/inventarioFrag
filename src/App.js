@@ -1,7 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+//import logo from "./logo.svg";
+import "./App.css";
 
-function App() {
+import RouterInventory from "./router/routerInventory";
+import Footer from "./components/footer";
+
+const App = () => {
+  
+  return (
+    <div >
+      
+      <RouterInventory />
+      <Footer />
+    </div>
+  );
+};
+
+/* function App() {
   return (
     <div className="App">
       <header className="App-header">
@@ -20,6 +34,6 @@ function App() {
       </header>
     </div>
   );
-}
+} */
 
 export default App;
